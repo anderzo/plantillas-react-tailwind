@@ -1,0 +1,25 @@
+{
+"productos": [
+    {
+      "id": 1,
+      "nombre": "Smartwatch Pro X",
+      "precio": 299,
+      "rating": "4.8",
+      "imagen": "https://imgs.search.brave.com/YxspC5J9XUsHZFaWpTa7dhUSC12R5KXgMiNdlT0cMxI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmVi/YXlpbWcuY29tL2lt/YWdlcy9nL0MyMEFB/T1N3flFCbDkyU1Yv/cy1sNTAwLmpwZw"
+    },
+    {
+      "id": 2,
+      "nombre": "Audífonos Inalámbricos",
+      "precio": 120,
+      "rating": "4.5",
+      "imagen": "https://imgs.search.brave.com/QoXgqus6yWzX8wvgFGjSopDn7kgPUwb_Gh5QFNIYtxA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmVi/YXlpbWcuY29tL2lt/YWdlcy9nL2Fha0FB/ZVN3dnRocEFGVDEv/cy1sNTAwLmpwZw"
+    },
+    {
+      "id": 3,
+      "nombre": "Parlante",
+      "precio": 120,
+      "rating": "4.5",
+      "imagen": "https://imgs.search.brave.com/PEe6DEPbgW5dvM9bHf0Zv97T-FPt6NApniQMgSgSX80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZGFtLmFsa29zdG8u/Y29tL3Byb2R1Y3Rz/LzEyMDAxMzAwMzc1/OTcvMTIwMDEzMDAz/NzU5Ny0wMDEud2Vi/cC9wYXJsYW50ZS1q/YmwtcGFydHlib3gt/MzMwLTI4MHctbmVn/cm8_dz0zMTA"
+    }
+  ]
+}
