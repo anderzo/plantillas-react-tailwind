@@ -1,0 +1,14 @@
+  /*const [listaProductos, setListaProductos] = useState([]); // Estado para guardar los productos
+
+  // 2. Usamos useEffect para hacer el fetch cuando cargue el componente
+  useEffect(() => {
+    fetch('http://localhost:3000/productos')
+      .then((res) => res.json())
+      .then((data) => setListaProductos(data))
+      .catch((error) => console.error('Error al cargar la API:', error));
+  }, []);
+  <main className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 p-6 justify-items-center">
+        {listaProductos.map((item) => (
+        <ProductCard key={item.id} producto={item} />
+      ))}
+      </main> */
