@@ -17,7 +17,7 @@ export default function Navbar() {
               to="/" 
               onClick={closeMenu} 
               className="text-xl font-bold tracking-wider bg-gradient-to-r from-yellow-400 to-amber-500 bg-clip-text text-transparent">
-              ANZ Tech </Link>
+              ANDZ  </Link>
           </div>
 
           {/* Enlaces de escritorio menu Responsivo */}
@@ -37,7 +37,7 @@ export default function Navbar() {
             
             {/* Botón de Login */}
             <Link 
-              to="/login" 
+              to='/LoginPage' 
               className="bg-yellow-400 hover:bg-yellow-300 text-black px-4 py-2 rounded-xl text-sm font-semibold transition-all active:scale-95 shadow-md shadow-yellow-500/10">
               Iniciar Sesión </Link>
           </div>
@@ -86,7 +86,7 @@ export default function Navbar() {
             className="block px-3 py-2 rounded-lg text-base font-medium text-zinc-300 hover:text-yellow-400 hover:bg-zinc-800 transition-all">
             Contacto </Link>
           <Link
-            to="/login"
+            to="/LoginPage"
             onClick={closeMenu}
             className="block w-full text-center mt-4 bg-yellow-400 hover:bg-yellow-300 text-black px-4 py-2.5 rounded-xl font-bold transition-all shadow-md">
             Iniciar Sesión </Link>

@@ -1,7 +1,7 @@
 //import listaProductos from './data/productos.json'; // <--- Importas tu JSON aparte
 
 //extenciones para el codigo
-import { useState, useEffect } from 'react'; // 1. Importa los hooks necesarios
+import { useState, useEffect } from 'react'; // 1. Importa los hooks necesarios para las apis
 import { Routes, Route } from 'react-router-dom'; //para mapear las rutas, decide qué página mostrar según la URL
 
 //imporatar componentes estaticos
@@ -10,6 +10,7 @@ import MiNavBar from './components/NavBar';
 
 //pages
 import Home from './pages/Home';
+import LoginPage from './pages/LoginPage';
 
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
      <MiNavBar />
      <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/LoginPage" element={<LoginPage />} />
      </Routes>
 
      <MiFooter />

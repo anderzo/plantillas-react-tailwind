@@ -1,23 +1,20 @@
 function Home() {
   return (
-    <div className="min-h-screen w-full bg-gradient-to-b from-black via-zinc-950 to-zinc-900 text-white flex flex-col justify-center items-center px-4 py-12">
-      
-      {/* Contenedor principal estilo tarjeta flotante con sombras */}
-      <div className="max-w-3xl w-full text-center bg-zinc-900/80 border border-zinc-800 rounded-3xl p-8 sm:p-12 shadow-2xl backdrop-blur-sm">
-        
-        {/* Badge superior opcional decorativo */}
-        <span className="inline-block px-4 py-1.5 mb-6 text-xs font-semibold tracking-wider text-yellow-400 bg-yellow-400/10 border border-yellow-400/20 rounded-full uppercase">
-          Bienvenido a la Plataforma </span>
+    <div className="min-h-screen w-full bg-gradient-to-b from-black via-zinc-950 to-zinc-900 text-white flex flex-col items-center px-4 py-12">
+      <section className="w-full px-6 py-16 text-center shadow-lg">
+        <p class="text-5xl md:text-6xl font-extrabold text-white mb-6 leading-tight tracking-tight"> ¡HOLA! ESTA ES MI EMPRESA  
+          <span className="text-yellow-300"> ANDERZO </span></p>
+      </section>
 
         {/* Nombre de la Empresa */}
         <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight mb-4">
           <span className="bg-gradient-to-r from-white via-zinc-200 to-zinc-400 bg-clip-text text-transparent">
-            ANZ Tech </span>
+            ANDZ </span>
         </h1>
 
         {/* Mensaje de Saludo y Descripción */}
         <p className="text-lg sm:text-xl text-zinc-400 max-w-xl mx-auto leading-relaxed mb-8">
-          ¡Nos alegra tenerte aquí! Explora nuestros productos y servicios diseñados con la mejor tecnología y calidad para ti.
+          ¡Me alegra tenerte aquí! Explora nuestros productos y servicios diseñados con la mejor tecnología y calidad para ti.
         </p>
 
         {/* Botones de Acción (Llamado a la Acción) */}
@@ -34,7 +31,6 @@ function Home() {
             onClick={() => console.log('Saber más')}
           > Saber Más </button>
         </div>
-      </div>
     </div>
   );
 }
