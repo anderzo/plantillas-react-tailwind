@@ -7,14 +7,12 @@ function Home() {
         
         {/* Badge superior opcional decorativo */}
         <span className="inline-block px-4 py-1.5 mb-6 text-xs font-semibold tracking-wider text-yellow-400 bg-yellow-400/10 border border-yellow-400/20 rounded-full uppercase">
-          Bienvenido a la Plataforma
-        </span>
+          Bienvenido a la Plataforma </span>
 
         {/* Nombre de la Empresa */}
         <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight mb-4">
           <span className="bg-gradient-to-r from-white via-zinc-200 to-zinc-400 bg-clip-text text-transparent">
-            ANZ Tech
-          </span>
+            ANZ Tech </span>
         </h1>
 
         {/* Mensaje de Saludo y Descripción */}
@@ -28,21 +26,15 @@ function Home() {
             type="button"
             className="w-full sm:w-auto px-8 py-3.5 bg-yellow-400 hover:bg-yellow-300 active:scale-[0.98] text-black font-bold rounded-xl shadow-lg shadow-yellow-500/10 transition-all cursor-pointer"
             onClick={() => console.log('Explorar productos')}
-          >
-            Explorar Productos
-          </button>
+          > Explorar Productos</button>
 
           <button 
             type="button"
             className="w-full sm:w-auto px-8 py-3.5 bg-zinc-800 hover:bg-zinc-700 active:scale-[0.98] text-zinc-200 font-semibold rounded-xl border border-zinc-700 transition-all cursor-pointer"
             onClick={() => console.log('Saber más')}
-          >
-            Saber Más
-          </button>
+          > Saber Más </button>
         </div>
-
       </div>
-
     </div>
   );
 }
