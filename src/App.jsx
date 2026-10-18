@@ -8,19 +8,21 @@ import { Routes, Route } from 'react-router-dom'; //para mapear las rutas, decid
 import MiFooter from './components/Footer';
 import MiNavBar from './components/NavBar';
 
+
 //pages
 import Home from './pages/Home';
 import LoginPage from './pages/LoginPage';
-
+import Productos from './pages/Productos';
 
 export default function App() {
 
   return (
-     <div className="bg-light text-dark min-vh-100 d-flex flex-column"> 
+     <div className=" text-dark min-vh-100 d-flex flex-column"> 
      <MiNavBar />
      <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/LoginPage" element={<LoginPage />} />
+      <Route path='/Productos' element={<Productos />} />
      </Routes>
 
      <MiFooter />

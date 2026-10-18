@@ -27,7 +27,7 @@ export default function Navbar() {
               className="text-zinc-300 hover:text-yellow-400 transition-colors font-medium text-sm">
               Inicio </Link>
             <Link 
-              to="/proyectos" 
+              to="/Productos" 
               className="text-zinc-300 hover:text-yellow-400 transition-colors font-medium text-sm">
               Productos </Link>
             <Link 
@@ -76,7 +76,7 @@ export default function Navbar() {
             className="block px-3 py-2 rounded-lg text-base font-medium text-zinc-300 hover:text-yellow-400 hover:bg-zinc-800 transition-all"
           > Inicio </Link>
           <Link
-            to="/proyectos"
+            to="/Productos"
             onClick={closeMenu}
             className="block px-3 py-2 rounded-lg text-base font-medium text-zinc-300 hover:text-yellow-400 hover:bg-zinc-800 transition-all">
             Productos </Link>
